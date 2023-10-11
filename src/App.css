@@ -1,0 +1,64 @@
+container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12),
+      0 2px 4px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Table Header Styles */
+  thead {
+    background-color: #f5f5f5;
+  }
+
+  thead th {
+    padding: 10px;
+    text-align: left;
+  }
+
+  /* Table Body Styles */
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Input Styles */
+  input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Custom Input Styles */
+  .fruit-name-input,
+  .item-price-input,
+  .num-items-input {
+    border: none;
+    background-color: #f9f9f9;
+  }
+
+  /* Total Styles */
+  .total-cell {
+    font-weight: bold;
+  }
+
+  /* Grand Total Styles */
+  .grand-total-label {
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .grand-total {
+    font-weight: bold;
+    color: #ff5733;
+  }
