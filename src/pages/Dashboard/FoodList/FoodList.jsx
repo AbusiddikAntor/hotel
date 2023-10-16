@@ -77,7 +77,7 @@ function FoodList() {
                   <div className="card-body">
                     <h2 className="card-title">
                       {item.name}
-                      <div className="badge badge-secondary">NEW</div>
+                      <div className="badge badge-secondary">NEW item</div>
                     </h2>
                     <p className="text-2xl font-semibold">
                       {" "}
