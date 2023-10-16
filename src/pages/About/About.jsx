@@ -33,46 +33,48 @@ function About(props) {
     </div>
    </div>
    
-   <h1 className='text-center text-2xl mt-4 mb-5'>Our Gallary View</h1>
+   <h1 className='text-center text-2xl mt-4 mb-5 text-green-500'>Our Gallary View</h1>
 
    <div className="carousel w-full">
    
   <div id="slide1" className="carousel-item relative w-full">
-    <img src={about1}className="w-full"  style={{height:"400px"}} />
+    <img src={about1}className="w-full"  style={{height:"500px"}} />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle">❮</a> 
       <a href="#slide2" className="btn btn-circle">❯</a>
     </div>
   </div> 
   <div id="slide2" className="carousel-item relative w-full">
-    <img src={about2} className="w-full" style={{height:"400px"}} />
+    <img src={about2} className="w-full" style={{height:"500px"}} />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide1" className="btn btn-circle">❮</a> 
       <a href="#slide3" className="btn btn-circle">❯</a>
     </div>
   </div> 
+
   <div id="slide3" className="carousel-item relative w-full">
-    <img src={about3} className="w-full" style={{height:"400px"}} />
+    <img src={about3} className="w-full" style={{height:"500px"}} />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide2" className="btn btn-circle">❮</a> 
       <a href="#slide4" className="btn btn-circle">❯</a>
     </div>
   </div> 
+
   <div id="slide4" className="carousel-item relative w-full">
-    <img src={about4}className="w-full" style={{height:"400px"}} />
+    <img src={about4}className="w-full" style={{height:"500px"}} />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
+      <a href="#slide1" className="btn btn-circle">❮</a> 
+      <a href="#slide3" className="btn btn-circle">❯</a>
     </div>
   </div>
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src={about5}className="w-full" style={{height:"400px"}} />
+  <div id="slide5" className="carousel-item relative w-full">
+    <img src={about5}className="w-full" style={{height:"500px"}} />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
+      <a href="#slide4" className="btn btn-circle">❮</a> 
+      <a href="#slide2" className="btn btn-circle">❯</a>
     </div>
   </div>
-  <div id="slide4" className="carousel-item relative w-full">
+  <div id="slide6" className="carousel-item relative w-full">
     <img src={about6}className="w-full" style={{height:"400px"}} />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide3" className="btn btn-circle">❮</a> 
@@ -101,9 +103,9 @@ function About(props) {
     </div>
   </div>
 </div>
-<h1 className='text-center text-2xl mb-5 mt-5 text-green-500'>Client Revew </h1>
-<div className='grid md:grid-cols-3 '>
-<div className="card w-96 bg-base-100 shadow-xl mt-6 mb-7">
+<h1 className='text-center text-2xl mb-5 mt-5 text-green-500'>Client Review </h1>
+<div className='grid md:grid-cols-3  '>
+<div className="card w-96 bg-base-100 shadow-xl mt-6 mb-7 mx-auto">
   <figure className="px-10 pt-10">
     <img src={client} alt="Shoes" className="rounded-xl" />
   </figure>
@@ -119,7 +121,7 @@ function About(props) {
     
   </div>
 </div>
-<div className="card w-96 bg-base-100 shadow-xl mt-6 mb-7">
+<div className="card w-96 bg-base-100 shadow-xl mt-6 mb-7 mx-auto">
   <figure className="px-10 pt-10">
     <img src={client1} alt="Shoes" className="rounded-xl"  />
   </figure>
@@ -136,7 +138,7 @@ I love that I could see into her mindset and read exactly what she was feeling w
     
   </div>
 </div>
-<div className="card w-96 bg-base-100 shadow-xl mt-6 mb-7">
+<div className="card w-96 bg-base-100 shadow-xl mt-6 mb-7 mx-auto">
   <figure className="px-10 pt-10">
     <img src={client2} alt="Shoes" className="rounded-xl" />
   </figure>

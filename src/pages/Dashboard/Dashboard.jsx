@@ -71,63 +71,19 @@ const Dashboard = () => {
                 <SiHotelsdotcom></SiHotelsdotcom>Food
               </Link>
             </li>
+
             <li>
               <Link to="/dashboard/foodList">
                 <FiList className="text-pink-700"></FiList>Food List
               </Link>
-
-{/* <li>
-<div className="dropdown dropdown-hover">
-  <MdFormatListNumbered></MdFormatListNumbered><label tabIndex={0} className="">Room Number</label>
-  <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-    <li>
-      <Link to="/dashboard/room101">Room NO- 101</Link>
-      </li >
-     <li>
-      <Link to="/dashboard/room102">Room NO- 102</Link >
-      </li>
-    <li>
-      <Link to="/dashboard/room103">Room NO- 103</Link >
-      </li>
-    <li>
-      <Link to="/dashboard/room104">Room NO- 104</Link >
-      </li>
-    <li>
-      <Link to="/dashboard/room105">Room NO- 105</Link >
-      </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 201</Link >
-      </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 202</Link >
-      </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 203</Link >
-    </li>
-    <li><Link to="/dashboard/room101">Room NO- 204</Link >
-    </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 205</Link >
-    </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 301</Link >
-    </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 302</Link >
-    </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 203</Link >
-    </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 304</Link >
-    </li>
-    <li>
-      <Link to="/dashboard/room101">Room NO- 305</Link>
-    </li>
-  </ul>
-</div>
-</li> */}
             </li>
+
+            <li>
+              <Link to="/dashboard/roomList">
+                <FiList className="text-pink-700"></FiList>Room List
+              </Link>
+            </li>
+
             <li>
                <Link to="/dashboard/addroom">
                 <BiAddToQueue className="text-purple-700"></BiAddToQueue>Add Room

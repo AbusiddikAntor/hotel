@@ -1,0 +1,47 @@
+
+[
+    
+    {
+    "id": 1,
+    "name": "chiken",
+    "price":150,
+    "image":"https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg"
+  },
+  {
+    "id": 2,
+    "name": "salat",
+    "price":170,
+    "image":"https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fried-rice",
+    "price":220,
+    "image":"https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg"
+  },
+    {
+    "id": 4,
+    "name": "chiken",
+    "price":250,
+    "image":"https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg"
+  },
+  {
+    "id": 5,
+    "name": "salat",
+    "price":270,
+    "image":"https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fried-rice",
+    "price":280,
+    "image":"https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg"
+  }
+
+
+
+
+
+
+
+]

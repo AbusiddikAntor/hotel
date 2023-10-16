@@ -13,6 +13,10 @@ import AddRoom from "../pages/Dashboard/AddRoom/AddRoom";
 import Food from "../pages/Dashboard/Food/Food";
 import FoodList from "../pages/Dashboard/FoodList/FoodList";
 import About from "../pages/About/About";
+import RoomList from "../pages/Dashboard/RoomList/RoomList";
+import RoomDetails101 from "../shared/RoomDetails-101/RoomDetails101";
+import RoomDetails102 from "../shared/RoomDetails-102/RoomDetails102";
+import CheckOutPage from "../pages/Dashboard/CheckIn/CheckOutPage";
 
 
 const router = createBrowserRouter([
@@ -58,6 +62,10 @@ const router = createBrowserRouter([
         element:<FoodList></FoodList>
       },
       {
+        path:'roomList',
+        element:<RoomList></RoomList>
+      },
+      {
         path:'addroom',
         element:<AddRoom></AddRoom>
       },
@@ -70,11 +78,25 @@ const router = createBrowserRouter([
         element:<CheckOUt></CheckOUt>
       },
       {
+        path:'checkoutPage',
+        element:<CheckOutPage></CheckOutPage>
+      },
+      {
         path:'room106',
         element:<Room106></Room106>,
 
       },
-      // -----------------------Room Number
+      {
+        path:'roomDetails101',
+        element:<RoomDetails101></RoomDetails101>,
+
+      },
+      {
+        path:'roomDetails102',
+        element:<RoomDetails102></RoomDetails102>,
+
+      },
+     
   
    
      
