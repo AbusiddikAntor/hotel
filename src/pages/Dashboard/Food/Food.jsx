@@ -20,7 +20,7 @@ function Food(props) {
   return (
 
     <div className="border  rounded-lg mt-14 mb-6 my-20 text-center ">
-      <h1 className="input input-bordered input-accent w-full max-w-xs btn btn-outline btn-primary bg-slate-100 mt-3 border-0 border-b-4 text-black ">Food Add-Room </h1>
+      <h1 className="input input-bordered input-accent w-full max-w-xs btn btn-outline btn-primary bg-slate-100 mt-3 border-0 border-b-4 text-black ">Food Item-Add </h1>
   <form 
   className="card-body"
   onSubmit={handleSubmit(onSubmit)}
